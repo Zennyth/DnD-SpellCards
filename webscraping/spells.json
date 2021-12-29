@@ -1,0 +1,90 @@
+[
+  {
+    "lvl": 2,
+    "title": "Arme spirituelle",
+    "class": "niveau 2 - évocation",
+    "properties": [
+      {
+        "name": "Temps d'incantation",
+        "value": "1 action bonus"
+      },
+      {
+        "name": "Portée",
+        "value": "18 mètres"
+      },
+      {
+        "name": "Composantes",
+        "value": "V, S"
+      },
+      {
+        "name": "Durée",
+        "value": "1 minute"
+      }
+    ],
+    "description": [
+      "Vous créez une arme spectrale qui flotte dans l'air, dans la portée et pour la durée du sort ou jusqu'à ce que vous incantiez ce sort à nouveau. Lorsque vous lancez ce sort, vous pouvez faire une attaque au corps à corps avec un sort contre une créature à 1,50 mètre ou moins de l'arme. Une attaque réussie inflige des dégâts de force équivalents à 1d8 + le modificateur de votre caractéristique d'incantation.",
+      "En tant qu'action bonus lors de votre tour, vous pouvez déplacer l'arme jusqu'à 6 mètres et réitérer l'attaque contre une créature à 1,50 mètre ou moins de l'arme.",
+      "L'arme peut prendre la forme de votre choix. Les clercs d'une divinité associée à une arme particulière (tel que Saint-Cuthbert connu pour sa masse d'armes ou Thor pour son marteau) peuvent faire en sorte que l'effet du sort prenne la forme de l'arme en question."
+    ],
+    "higher-levels": [
+      "Lorsque vous lancez ce sort en utilisant un emplacement de sort de niveau 3 ou supérieur, les dégâts infligés augmentent de 1d8 pour chaque niveau d'emplacement pair supérieur au niveau 2."
+    ]
+  },
+  {
+    "lvl": 1,
+    "title": "Armure d'Agathys",
+    "class": "niveau 1 - abjuration",
+    "properties": [
+      {
+        "name": "Temps d'incantation",
+        "value": "1 action"
+      },
+      {
+        "name": "Portée",
+        "value": "personnelle"
+      },
+      {
+        "name": "Composantes",
+        "value": "V, S, M (une coupe d'eau)"
+      },
+      {
+        "name": "Durée",
+        "value": "1 heure"
+      }
+    ],
+    "description": [
+      "Une force magique protectrice vous entoure, se manifestant sous la forme d'un givre spectral vous couvrant vous et votre équipement. Vous obtenez 5 points de vie temporaires pour la durée du sort. Si une créature vous touche avec une attaque au corps à corps alors que vous avez ces points de vie temporaires, la créature subit 5 dégâts de froid."
+    ],
+    "higher-levels": [
+      "Lorsque vous lancez ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les points de vie temporaires et les dégâts de froid augmentent de 5 pour chaque niveau d'emplacement au-delà du niveau 1."
+    ]
+  },
+  {
+    "lvl": 9,
+    "title": "Arrêt du temps",
+    "class": "niveau 9 - transmutation",
+    "properties": [
+      {
+        "name": "Temps d'incantation",
+        "value": "1 action"
+      },
+      {
+        "name": "Portée",
+        "value": "personnelle"
+      },
+      {
+        "name": "Composantes",
+        "value": "V"
+      },
+      {
+        "name": "Durée",
+        "value": "instantanée"
+      }
+    ],
+    "description": [
+      "Vous arrêtez brièvement l'écoulement du temps pour tout le monde, sauf pour vous-même. Le temps ne s'écoule pas pour les autres créatures, tandis que vous profitez de 1d4 + 1 tours au cours desquels vous pouvez utiliser à votre guise les actions et mouvements qui vous sont dus normalement.",
+      "Ce sort prend fin si l'une des actions que vous utilisez lors de cette période, ou l'un des effets que vous créez au cours de cette période, affecte une créature autre que vous ou un objet étant porté par quelqu'un d'autre que vous. De plus, le sort prend fin si vous vous déplacez à plus de 300 mètres d'où vous l'avez lancé."
+    ],
+    "higher-levels": []
+  }
+]
