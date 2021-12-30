@@ -1,21 +1,38 @@
 <template>
-  <div id="sheet">
-    <Card v-for="spell in spells" :key="spell.title" :spell="spell"/>
+  <div class="spells">
+    <Sheet
+     v-for="(chunk, index) in spellChunks" 
+     :key="index"
+     :spells="chunk"
+    />
   </div>
 </template>
 
 <script>
-import Card from './components/Card.vue';
+import Sheet from './components/Sheet.vue';
 import spells from './assets/spells/example.json';
 
 export default {
   name: 'App',
   components: {
-    Card
+    Sheet
   },
   data: () => {
     return {
       spells: spells
+    }
+  },
+  computed: {
+    spellChunks: function() {
+      return this.chunk(this.spells, 6);
+    }
+  },
+  methods: {
+    chunk: (array, size) => {
+      return array.reduce((acc, _, i) => {
+        if (i % size === 0) acc.push(array.slice(i, i + size))
+        return acc
+      }, []);
     }
   }
 }
@@ -43,18 +60,12 @@ export default {
   justify-content: center;
 }
 
-#sheet {
-  width: 210mm;
-  height: 297mm;
-  background: #ffffff;
-  margin: 1em;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 @media print {
   #sheet {
     margin: 0;
+  }
+  #app {
+    background: #ffffff;
   }
 }
 

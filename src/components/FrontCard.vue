@@ -53,9 +53,12 @@ export default {
 .card {
   width: 70mm;
   height: 120mm;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   border: .5px solid black;
   position: relative;
-  padding: 1em;
+  background: #ffffff;
 
   h1 {
     font-size: 1.75em;
@@ -85,15 +88,16 @@ export default {
 
   &-body {
     border: 1px solid #D4D4D4;
-    height: calc(120mm - .5em);
+    height: calc(120mm - 2.5em);
     padding: 0 .4em;
     padding-top: .25em;
-
+    margin: 1em;
+    overflow: hidden;
 
     > div {
       z-index: 1;
       position: relative;
-      margin-top: .75em;
+      margin-top: .5em;
     }
 
     h1 {
@@ -106,7 +110,7 @@ export default {
     &__title {
       h1 {
         font-family: 'Magical';
-        font-size: 2.5em;
+        font-size: 2.25em;
         text-transform: capitalize;
       }
       h3 {
