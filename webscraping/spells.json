@@ -1,16 +1,44 @@
 [
   {
-    "lvl": 2,
-    "title": "Arme spirituelle",
-    "class": "niveau 2 - évocation",
+    "lvl": 0,
+    "title": "Lame tonnante",
+    "class": "niveau 0 - évocation",
     "properties": [
       {
         "name": "Temps d'incantation",
-        "value": "1 action bonus"
+        "value": "1 action"
       },
       {
         "name": "Portée",
-        "value": "18 mètres"
+        "value": "personnelle (rayon de 1,50 mètre)"
+      },
+      {
+        "name": "Composantes",
+        "value": "V, M (une arme de corps à corps valant au moins 1 pa)"
+      },
+      {
+        "name": "Durée",
+        "value": "1 round"
+      }
+    ],
+    "description": [
+      "Vous brandissez l'arme utilisée pour l'incantation du sort et effectuez une attaque au corps à corps avec cette arme contre une créature à 1,50 mètre ou moins de vous. Si vous touchez, la cible subit les effets normaux de l'attaque et elle est enveloppée d'une énergie explosive jusqu'au début de votre prochain tour. Si la cible se déplace volontairement de 1,50 mètre ou plus pendant ce laps de temps, elle subit 1d8 dégâts de tonnerre et le sort se termine.",
+      "Les dégâts de ce sort augmentent suivant votre niveau. Au niveau 5, l'attaque au corps à corps inflige 1d8 dégâts de tonnerre supplémentaires à la cible, et les dégâts que la cible subit si elle se déplace passent à 2d8. Les deux jets de dégâts augmentent ensuite de 1d8 aux niveaux 11 (2d8 et 3d8) et 17 (3d8 et 4d8)."
+    ],
+    "higher-levels": []
+  },
+  {
+    "lvl": 0,
+    "title": "Décharge occulte",
+    "class": "niveau 0 - évocation",
+    "properties": [
+      {
+        "name": "Temps d'incantation",
+        "value": "1 action"
+      },
+      {
+        "name": "Portée",
+        "value": "36 mètres"
       },
       {
         "name": "Composantes",
@@ -18,72 +46,39 @@
       },
       {
         "name": "Durée",
-        "value": "1 minute"
-      }
-    ],
-    "description": [
-      "Vous créez une arme spectrale qui flotte dans l'air, dans la portée et pour la durée du sort ou jusqu'à ce que vous incantiez ce sort à nouveau. Lorsque vous lancez ce sort, vous pouvez faire une attaque au corps à corps avec un sort contre une créature à 1,50 mètre ou moins de l'arme. Une attaque réussie inflige des dégâts de force équivalents à 1d8 + le modificateur de votre caractéristique d'incantation.",
-      "En tant qu'action bonus lors de votre tour, vous pouvez déplacer l'arme jusqu'à 6 mètres et réitérer l'attaque contre une créature à 1,50 mètre ou moins de l'arme.",
-      "L'arme peut prendre la forme de votre choix. Les clercs d'une divinité associée à une arme particulière (tel que Saint-Cuthbert connu pour sa masse d'armes ou Thor pour son marteau) peuvent faire en sorte que l'effet du sort prenne la forme de l'arme en question."
-    ],
-    "higher-levels": [
-      "Lorsque vous lancez ce sort en utilisant un emplacement de sort de niveau 3 ou supérieur, les dégâts infligés augmentent de 1d8 pour chaque niveau d'emplacement pair supérieur au niveau 2."
-    ]
-  },
-  {
-    "lvl": 1,
-    "title": "Armure d'Agathys",
-    "class": "niveau 1 - abjuration",
-    "properties": [
-      {
-        "name": "Temps d'incantation",
-        "value": "1 action"
-      },
-      {
-        "name": "Portée",
-        "value": "personnelle"
-      },
-      {
-        "name": "Composantes",
-        "value": "V, S, M (une coupe d'eau)"
-      },
-      {
-        "name": "Durée",
-        "value": "1 heure"
-      }
-    ],
-    "description": [
-      "Une force magique protectrice vous entoure, se manifestant sous la forme d'un givre spectral vous couvrant vous et votre équipement. Vous obtenez 5 points de vie temporaires pour la durée du sort. Si une créature vous touche avec une attaque au corps à corps alors que vous avez ces points de vie temporaires, la créature subit 5 dégâts de froid."
-    ],
-    "higher-levels": [
-      "Lorsque vous lancez ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les points de vie temporaires et les dégâts de froid augmentent de 5 pour chaque niveau d'emplacement au-delà du niveau 1."
-    ]
-  },
-  {
-    "lvl": 9,
-    "title": "Arrêt du temps",
-    "class": "niveau 9 - transmutation",
-    "properties": [
-      {
-        "name": "Temps d'incantation",
-        "value": "1 action"
-      },
-      {
-        "name": "Portée",
-        "value": "personnelle"
-      },
-      {
-        "name": "Composantes",
-        "value": "V"
-      },
-      {
-        "name": "Durée",
         "value": "instantanée"
       }
     ],
     "description": [
-      "Vous arrêtez brièvement l'écoulement du temps pour tout le monde, sauf pour vous-même. Le temps ne s'écoule pas pour les autres créatures, tandis que vous profitez de 1d4 + 1 tours au cours desquels vous pouvez utiliser à votre guise les actions et mouvements qui vous sont dus normalement.",
-      "Ce sort prend fin si l'une des actions que vous utilisez lors de cette période, ou l'un des effets que vous créez au cours de cette période, affecte une créature autre que vous ou un objet étant porté par quelqu'un d'autre que vous. De plus, le sort prend fin si vous vous déplacez à plus de 300 mètres d'où vous l'avez lancé."
+      "Un rayon d'énergie crépitante zigzague jusqu'à une créature à portée. Effectuez une attaque à distance avec un sort contre la cible. En cas de réussite, la cible subit 1d10 dégâts de force.",
+      "Ce sort crée plus d'un rayon lorsque vous montez en niveau : deux rayons au niveau 5, trois rayons au niveau 11, et quatre rayons au niveau 17. Vous pouvez diriger les rayons sur une cible unique et les répartir entre différentes créatures. Effectuez un jet d'attaque séparé pour chaque rayon."
+    ],
+    "higher-levels": []
+  },
+  {
+    "lvl": 1,
+    "title": "Bouclier",
+    "class": "niveau 1 - abjuration",
+    "properties": [
+      {
+        "name": "Temps d'incantation",
+        "value": "1 réaction, que vous prenez lorsque vous êtes touché par une attaque ou ciblé par le sort projectile magique"
+      },
+      {
+        "name": "Portée",
+        "value": "personnelle"
+      },
+      {
+        "name": "Composantes",
+        "value": "V, S"
+      },
+      {
+        "name": "Durée",
+        "value": "1 round"
+      }
+    ],
+    "description": [
+      "Une barrière invisible de force magique apparaît et vous protège. Jusqu'au début de votre prochain tour, vous obtenez un bonus de +5 à votre CA, y compris contre l'attaque qui a déclenché le sort, et vous ne prenez aucun dégât par le sort projectile magique."
     ],
     "higher-levels": []
   }

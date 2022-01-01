@@ -1,6 +1,6 @@
 <template>
   <div class="back-card">
-    <img class="back-card-img" src="@/assets/back/back.jpg" alt="">
+    <img class="back-card-img" src="@/assets/back/crest.png" alt="">
   </div>
 </template>
 
