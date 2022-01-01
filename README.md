@@ -27,5 +27,5 @@ npm run serve
 Press ctrl + p to print all the cards
 
 ### Example
-<img src="./examples/front.jpg">
-<img src="./examples/back.jpg">
+<img src="https://github.com/Zennyth/DnD-SpellCards/blob/main/examples/front.JPG">
+<img src="https://github.com/Zennyth/DnD-SpellCards/blob/main/examples/back.JPG">
