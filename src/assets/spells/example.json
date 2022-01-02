@@ -1,6 +1,74 @@
 [
   {
     "lvl": 0,
+    "title": "Sens divin",
+    "class": "niveau 0 - Paladin",
+    "properties": [
+      {
+        "name": "Temps d'incantation",
+        "value": "1 action"
+      },
+      {
+        "name": "Portée",
+        "value": "18 mètres"
+      },
+      {
+        "name": "Composantes",
+        "value": "-"
+      },
+      {
+        "name": "Durée",
+        "value": "1 tour"
+      }
+    ],
+    "description": [
+      "Une forte présence maléfique éveille vos sens, comme une odeur nocive, et un bien puissant fait résonner dans vos oreilles une musique céleste. Par une action, vous pouvez éveiller votre conscience pour détecter de telles forces. Jusqu'à la fin de votre prochain tour, vous connaissez l'emplacement de toute créature céleste, fiélon ou mort-vivante dans un rayon de 18 mètres autour de vous, et qui ne se trouve pas derrière un abri total. Vous connaissez le type (céleste, fiélon ou mort-vivant) et le nombre de tous les êtres dont vous sentez la présence, mais pas leur identité. Dans ce même rayon, vous détectez également la présence d'un lieu ou d'un objet qui a été consacré ou profané, comme avec le sort sanctification.",
+      "Vous pouvez utiliser cette capacité un nombre de fois égal à 1 + votre modificateur de Charisme. Lorsque vous terminez un repos long, vous récupérez toutes les utilisations dépensées."
+    ],
+    "higher-levels": []
+  },
+  {
+    "lvl": 0,
+    "title": "Imposition des mains",
+    "class": "niveau 0 - Paladin",
+    "properties": [
+      {
+        "name": "Temps d'incantation",
+        "value": "-"
+      },
+      {
+        "name": "Portée",
+        "value": "18 mètres"
+      },
+      {
+        "name": "Composantes",
+        "value": "S"
+      },
+      {
+        "name": "Durée",
+        "value": "1 tour"
+      }
+    ],
+    "description": [
+      "Votre toucher béni peut guérir les blessures. Vous possédez une réserve de points de vie à soigner qui se récupère après chaque repos long. Avec cette réserve, vous pouvez restaurer un nombre total de points de vie égal à votre niveau de paladin multiplié par 5. Au prix d'une action, vous pouvez toucher une créature et puiser dans votre réserve pour soigner autant de points de vie que vous le désirez, sans dépasser le nombre de points dans votre réserve bien entendu.",
+      "Vous pouvez également dépenser 5 points de vie de votre réserve pour guérir la cible d'une maladie ou neutraliser un poison qui l'affecte. Vous pouvez soigner plusieurs maladies et neutraliser plusieurs poisons avec une seule imposition des mains en dépensant les points de vie séparément pour chacun d'entre eux. L'imposition des mains n'a pas d'effet sur les morts-vivants et les artificiels."
+    ],
+    "higher-levels": []
+  },
+  {
+    "lvl": 0,
+    "title": "Mage de guerre",
+    "class": "niveau 0 - Don",
+    "description": [
+      "Vous avez pratiqué le lancer de sorts au milieu d'un combat, apprenant des techniques que vous accordent les avantages suivants :",
+      "- Vous avez un avantage aux jets de sauvegarde de Constitution pour maintenir votre concentration sur un sort lorsque vous subissez des dégâts.",
+      "- Vous pouvez effectuer les composantes somatiques d'un sort même si vous avez des armes ou un bouclier dans les mains.",
+      "- Lorsque le mouvement d'une créature hostile provoque une attaque d'opportunité pour vous, vous pouvez utiliser votre réaction pour lancer un sort à la créature, plutôt que de faire une attaque d'opportunité. Le sort doit avoir un temps d'incantation de 1 action et ne doit viser que cette créature."
+    ],
+    "higher-levels": []
+  },
+  {
+    "lvl": 0,
     "title": "Lame tonnante",
     "class": "niveau 0 - évocation",
     "properties": [
@@ -57,16 +125,16 @@
   },
   {
     "lvl": 1,
-    "title": "Bouclier",
-    "class": "niveau 1 - abjuration",
+    "title": "Représailles infernales",
+    "class": "niveau 1 - évocation",
     "properties": [
       {
         "name": "Temps d'incantation",
-        "value": "1 réaction, que vous prenez lorsque vous êtes touché par une attaque ou ciblé par le sort projectile magique"
+        "value": "1 réaction, que vous prenez après avoir subi des dégâts par une créature située à 18 mètres maximum de vous et que vous pouvez voir."
       },
       {
         "name": "Portée",
-        "value": "personnelle"
+        "value": "18 mètres"
       },
       {
         "name": "Composantes",
@@ -74,11 +142,73 @@
       },
       {
         "name": "Durée",
-        "value": "1 round"
+        "value": "instantanée"
       }
     ],
     "description": [
-      "Une barrière invisible de force magique apparaît et vous protège. Jusqu'au début de votre prochain tour, vous obtenez un bonus de +5 à votre CA, y compris contre l'attaque qui a déclenché le sort, et vous ne prenez aucun dégât par le sort projectile magique."
+      "Vous pointez votre doigt, et la créature qui vous a infligé des dégâts est momentanément entourée de flammes infernales. La créature doit effectuer un jet de sauvegarde de Dextérité, subissant 2d10 dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+    ],
+    "higher-levels": [
+      "Lorsque vous lancez ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les dégâts sont augmentés de 1d10 pour chaque niveau d'emplacement au-delà du niveau 1."
+    ]
+  },
+  {
+    "lvl": 1,
+    "title": "Armure d'Agathys",
+    "class": "niveau 1 - abjuration",
+    "properties": [
+      {
+        "name": "Temps d'incantation",
+        "value": "1 action"
+      },
+      {
+        "name": "Portée",
+        "value": "personnelle"
+      },
+      {
+        "name": "Composantes",
+        "value": "V, S, M (une coupe d'eau)"
+      },
+      {
+        "name": "Durée",
+        "value": "1 heure"
+      }
+    ],
+    "description": [
+      "Une force magique protectrice vous entoure, se manifestant sous la forme d'un givre spectral vous couvrant vous et votre équipement. Vous obtenez 5 points de vie temporaires pour la durée du sort. Si une créature vous touche avec une attaque au corps à corps alors que vous avez ces points de vie temporaires, la créature subit 5 dégâts de froid."
+    ],
+    "higher-levels": [
+      "Lorsque vous lancez ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les points de vie temporaires et les dégâts de froid augmentent de 5 pour chaque niveau d'emplacement au-delà du niveau 1."
+    ]
+  },
+  {
+    "lvl": 1,
+    "title": "Malédiction de la Lame maudite",
+    "class": "niveau 1 - Lame maudite",
+    "properties": [
+      {
+        "name": "Temps d'incantation",
+        "value": "1 action bonus"
+      },
+      {
+        "name": "Portée",
+        "value": "9 mètres"
+      },
+      {
+        "name": "Composantes",
+        "value": "V, S"
+      },
+      {
+        "name":"Durée",
+        "value": "1 minute"
+      }
+    ],
+    "description": [
+      "Tant que la cible est maudite, vous gagnez les avantages suivants :",
+      "- Vous gagnez un bonus égal à votre bonus de maîtrise aux jets de dégâts contre la cible maudite.",
+      "- Tout jet d'attaque que vous faites contre la cible maudite est un critique pour un résultat de 19 ou 20 sur le d20.",
+      "- Si la cible maudite meurt, vous regagnez un nombre de points de vie égal à votre niveau d'occultiste + votre modificateur de Charisme (minimum 1 pv).",
+      "Vous ne pouvez utiliser cette capacité à nouveau avant de finir un repos court ou long."
     ],
     "higher-levels": []
   }

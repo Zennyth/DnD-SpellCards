@@ -1,44 +1,16 @@
 [
   {
-    "lvl": 0,
-    "title": "Lame tonnante",
-    "class": "niveau 0 - évocation",
+    "lvl": 1,
+    "title": "Représailles infernales",
+    "class": "niveau 1 - évocation",
     "properties": [
       {
         "name": "Temps d'incantation",
-        "value": "1 action"
+        "value": "1 réaction, que vous prenez après avoir subi des dégâts par une créature située à 18 mètres maximum de vous et que vous pouvez voir."
       },
       {
         "name": "Portée",
-        "value": "personnelle (rayon de 1,50 mètre)"
-      },
-      {
-        "name": "Composantes",
-        "value": "V, M (une arme de corps à corps valant au moins 1 pa)"
-      },
-      {
-        "name": "Durée",
-        "value": "1 round"
-      }
-    ],
-    "description": [
-      "Vous brandissez l'arme utilisée pour l'incantation du sort et effectuez une attaque au corps à corps avec cette arme contre une créature à 1,50 mètre ou moins de vous. Si vous touchez, la cible subit les effets normaux de l'attaque et elle est enveloppée d'une énergie explosive jusqu'au début de votre prochain tour. Si la cible se déplace volontairement de 1,50 mètre ou plus pendant ce laps de temps, elle subit 1d8 dégâts de tonnerre et le sort se termine.",
-      "Les dégâts de ce sort augmentent suivant votre niveau. Au niveau 5, l'attaque au corps à corps inflige 1d8 dégâts de tonnerre supplémentaires à la cible, et les dégâts que la cible subit si elle se déplace passent à 2d8. Les deux jets de dégâts augmentent ensuite de 1d8 aux niveaux 11 (2d8 et 3d8) et 17 (3d8 et 4d8)."
-    ],
-    "higher-levels": []
-  },
-  {
-    "lvl": 0,
-    "title": "Décharge occulte",
-    "class": "niveau 0 - évocation",
-    "properties": [
-      {
-        "name": "Temps d'incantation",
-        "value": "1 action"
-      },
-      {
-        "name": "Portée",
-        "value": "36 mètres"
+        "value": "18 mètres"
       },
       {
         "name": "Composantes",
@@ -50,36 +22,10 @@
       }
     ],
     "description": [
-      "Un rayon d'énergie crépitante zigzague jusqu'à une créature à portée. Effectuez une attaque à distance avec un sort contre la cible. En cas de réussite, la cible subit 1d10 dégâts de force.",
-      "Ce sort crée plus d'un rayon lorsque vous montez en niveau : deux rayons au niveau 5, trois rayons au niveau 11, et quatre rayons au niveau 17. Vous pouvez diriger les rayons sur une cible unique et les répartir entre différentes créatures. Effectuez un jet d'attaque séparé pour chaque rayon."
+      "Vous pointez votre doigt, et la créature qui vous a infligé des dégâts est momentanément entourée de flammes infernales. La créature doit effectuer un jet de sauvegarde de Dextérité, subissant 2d10 dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
     ],
-    "higher-levels": []
-  },
-  {
-    "lvl": 1,
-    "title": "Bouclier",
-    "class": "niveau 1 - abjuration",
-    "properties": [
-      {
-        "name": "Temps d'incantation",
-        "value": "1 réaction, que vous prenez lorsque vous êtes touché par une attaque ou ciblé par le sort projectile magique"
-      },
-      {
-        "name": "Portée",
-        "value": "personnelle"
-      },
-      {
-        "name": "Composantes",
-        "value": "V, S"
-      },
-      {
-        "name": "Durée",
-        "value": "1 round"
-      }
-    ],
-    "description": [
-      "Une barrière invisible de force magique apparaît et vous protège. Jusqu'au début de votre prochain tour, vous obtenez un bonus de +5 à votre CA, y compris contre l'attaque qui a déclenché le sort, et vous ne prenez aucun dégât par le sort projectile magique."
-    ],
-    "higher-levels": []
+    "higher-levels": [
+      "Lorsque vous lancez ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les dégâts sont augmentés de 1d10 pour chaque niveau d'emplacement au-delà du niveau 1."
+    ]
   }
 ]

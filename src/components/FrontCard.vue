@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <div class="card-lvl">
+    <div class="card-lvl" v-if="abrv != ''">
       <h1>{{spell.lvl}}</h1>
       <h3>{{abrv}}</h3>
     </div>
@@ -37,6 +37,8 @@ export default {
   computed: {
     abrv: function() {
       switch(this.spell.lvl) {
+        case 0:
+          return ""
         case 1:
           return "er"
         case 2:

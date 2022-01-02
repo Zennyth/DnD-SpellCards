@@ -4,7 +4,7 @@ import re
 import json
 
 
-spells_name = ["lame-tonnante", "decharge-occulte", "bouclier"]
+spells_name = ["represailles-infernales"]
 spells = []
 
 for spell_name in spells_name:
